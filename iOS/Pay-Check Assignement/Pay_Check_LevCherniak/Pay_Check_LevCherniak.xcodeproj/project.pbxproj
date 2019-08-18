@@ -1,0 +1,470 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9C121C64E3AD2D0F9FC72117 /* Pods_Pay_Check_LevCherniak.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC6446701F442B6C9EDC80D2 /* Pods_Pay_Check_LevCherniak.framework */; };
+		D6F5C90822A656770067767D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6F5C90722A656770067767D /* AppDelegate.swift */; };
+		D6F5C90D22A656770067767D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6F5C90B22A656770067767D /* Main.storyboard */; };
+		D6F5C90F22A656790067767D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6F5C90E22A656790067767D /* Assets.xcassets */; };
+		D6F5C91222A656790067767D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6F5C91022A656790067767D /* LaunchScreen.storyboard */; };
+		D6F5C91A22A66D390067767D /* ProductsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6F5C91922A66D390067767D /* ProductsViewController.swift */; };
+		D6F5C92022A66DB00067767D /* transactions1.json in Resources */ = {isa = PBXBuildFile; fileRef = D6F5C91C22A66DAF0067767D /* transactions1.json */; };
+		D6F5C92122A66DB00067767D /* rates2.json in Resources */ = {isa = PBXBuildFile; fileRef = D6F5C91D22A66DAF0067767D /* rates2.json */; };
+		D6F5C92222A66DB00067767D /* rates1.json in Resources */ = {isa = PBXBuildFile; fileRef = D6F5C91E22A66DB00067767D /* rates1.json */; };
+		D6F5C92322A66DB00067767D /* transactions2.json in Resources */ = {isa = PBXBuildFile; fileRef = D6F5C91F22A66DB00067767D /* transactions2.json */; };
+		D6F5C92722A683B00067767D /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6F5C92622A683B00067767D /* Transaction.swift */; };
+		D6F5C92922A68C800067767D /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6F5C92822A68C800067767D /* Product.swift */; };
+		D6F5C92C22A6B7CB0067767D /* TransactionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6F5C92B22A6B7CB0067767D /* TransactionsViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1712CC0FBE015E19C49F0919 /* Pods-Pay_Check_LevCherniak.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pay_Check_LevCherniak.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Pay_Check_LevCherniak/Pods-Pay_Check_LevCherniak.debug.xcconfig"; sourceTree = "<group>"; };
+		AC6446701F442B6C9EDC80D2 /* Pods_Pay_Check_LevCherniak.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pay_Check_LevCherniak.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6F5C90422A656770067767D /* Pay_Check_LevCherniak.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pay_Check_LevCherniak.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6F5C90722A656770067767D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D6F5C90C22A656770067767D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D6F5C90E22A656790067767D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D6F5C91122A656790067767D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D6F5C91322A656790067767D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6F5C91922A66D390067767D /* ProductsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsViewController.swift; sourceTree = "<group>"; };
+		D6F5C91C22A66DAF0067767D /* transactions1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = transactions1.json; sourceTree = "<group>"; };
+		D6F5C91D22A66DAF0067767D /* rates2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = rates2.json; sourceTree = "<group>"; };
+		D6F5C91E22A66DB00067767D /* rates1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = rates1.json; sourceTree = "<group>"; };
+		D6F5C91F22A66DB00067767D /* transactions2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = transactions2.json; sourceTree = "<group>"; };
+		D6F5C92622A683B00067767D /* Transaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
+		D6F5C92822A68C800067767D /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		D6F5C92B22A6B7CB0067767D /* TransactionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsViewController.swift; sourceTree = "<group>"; };
+		F4F896E0333E3B649E60D2D4 /* Pods-Pay_Check_LevCherniak.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pay_Check_LevCherniak.release.xcconfig"; path = "Pods/Target Support Files/Pods-Pay_Check_LevCherniak/Pods-Pay_Check_LevCherniak.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D6F5C90122A656770067767D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C121C64E3AD2D0F9FC72117 /* Pods_Pay_Check_LevCherniak.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		14CF5E7F0A6C0D498FCE40C2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1712CC0FBE015E19C49F0919 /* Pods-Pay_Check_LevCherniak.debug.xcconfig */,
+				F4F896E0333E3B649E60D2D4 /* Pods-Pay_Check_LevCherniak.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D6F5C8FB22A656770067767D = {
+			isa = PBXGroup;
+			children = (
+				D6F5C90622A656770067767D /* Pay_Check_LevCherniak */,
+				D6F5C90522A656770067767D /* Products */,
+				14CF5E7F0A6C0D498FCE40C2 /* Pods */,
+				E326063127A1A724B6023ECA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D6F5C90522A656770067767D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D6F5C90422A656770067767D /* Pay_Check_LevCherniak.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D6F5C90622A656770067767D /* Pay_Check_LevCherniak */ = {
+			isa = PBXGroup;
+			children = (
+				D6F5C92A22A68F440067767D /* Staff */,
+				D6F5C92422A6837C0067767D /* ViewControllers */,
+				D6F5C92522A683970067767D /* Model */,
+				D6F5C90B22A656770067767D /* Main.storyboard */,
+				D6F5C90E22A656790067767D /* Assets.xcassets */,
+				D6F5C91022A656790067767D /* LaunchScreen.storyboard */,
+				D6F5C91322A656790067767D /* Info.plist */,
+				D6F5C91B22A66D700067767D /* JSON */,
+			);
+			path = Pay_Check_LevCherniak;
+			sourceTree = "<group>";
+		};
+		D6F5C91B22A66D700067767D /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				D6F5C91E22A66DB00067767D /* rates1.json */,
+				D6F5C91D22A66DAF0067767D /* rates2.json */,
+				D6F5C91C22A66DAF0067767D /* transactions1.json */,
+				D6F5C91F22A66DB00067767D /* transactions2.json */,
+			);
+			path = JSON;
+			sourceTree = "<group>";
+		};
+		D6F5C92422A6837C0067767D /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				D6F5C91922A66D390067767D /* ProductsViewController.swift */,
+				D6F5C92B22A6B7CB0067767D /* TransactionsViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		D6F5C92522A683970067767D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D6F5C92622A683B00067767D /* Transaction.swift */,
+				D6F5C92822A68C800067767D /* Product.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D6F5C92A22A68F440067767D /* Staff */ = {
+			isa = PBXGroup;
+			children = (
+				D6F5C90722A656770067767D /* AppDelegate.swift */,
+			);
+			path = Staff;
+			sourceTree = "<group>";
+		};
+		E326063127A1A724B6023ECA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AC6446701F442B6C9EDC80D2 /* Pods_Pay_Check_LevCherniak.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D6F5C90322A656770067767D /* Pay_Check_LevCherniak */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6F5C91622A656790067767D /* Build configuration list for PBXNativeTarget "Pay_Check_LevCherniak" */;
+			buildPhases = (
+				109A377F688DF063823681FE /* [CP] Check Pods Manifest.lock */,
+				D6F5C90022A656770067767D /* Sources */,
+				D6F5C90122A656770067767D /* Frameworks */,
+				D6F5C90222A656770067767D /* Resources */,
+				AFAC8B2F2E81AD58AE1C3B6C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Pay_Check_LevCherniak;
+			productName = Pay_Check_LevCherniak;
+			productReference = D6F5C90422A656770067767D /* Pay_Check_LevCherniak.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D6F5C8FC22A656770067767D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = LeoChernyak;
+				TargetAttributes = {
+					D6F5C90322A656770067767D = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = D6F5C8FF22A656770067767D /* Build configuration list for PBXProject "Pay_Check_LevCherniak" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D6F5C8FB22A656770067767D;
+			productRefGroup = D6F5C90522A656770067767D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D6F5C90322A656770067767D /* Pay_Check_LevCherniak */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D6F5C90222A656770067767D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6F5C92022A66DB00067767D /* transactions1.json in Resources */,
+				D6F5C91222A656790067767D /* LaunchScreen.storyboard in Resources */,
+				D6F5C90F22A656790067767D /* Assets.xcassets in Resources */,
+				D6F5C90D22A656770067767D /* Main.storyboard in Resources */,
+				D6F5C92122A66DB00067767D /* rates2.json in Resources */,
+				D6F5C92222A66DB00067767D /* rates1.json in Resources */,
+				D6F5C92322A66DB00067767D /* transactions2.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		109A377F688DF063823681FE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Pay_Check_LevCherniak-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AFAC8B2F2E81AD58AE1C3B6C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Pay_Check_LevCherniak/Pods-Pay_Check_LevCherniak-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Pay_Check_LevCherniak/Pods-Pay_Check_LevCherniak-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D6F5C90022A656770067767D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6F5C91A22A66D390067767D /* ProductsViewController.swift in Sources */,
+				D6F5C92922A68C800067767D /* Product.swift in Sources */,
+				D6F5C90822A656770067767D /* AppDelegate.swift in Sources */,
+				D6F5C92722A683B00067767D /* Transaction.swift in Sources */,
+				D6F5C92C22A6B7CB0067767D /* TransactionsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D6F5C90B22A656770067767D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D6F5C90C22A656770067767D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D6F5C91022A656790067767D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D6F5C91122A656790067767D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D6F5C91422A656790067767D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D6F5C91522A656790067767D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D6F5C91722A656790067767D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1712CC0FBE015E19C49F0919 /* Pods-Pay_Check_LevCherniak.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 688N44G535;
+				INFOPLIST_FILE = Pay_Check_LevCherniak/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "LevCherniak.Pay-Check-LevCherniak";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D6F5C91822A656790067767D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4F896E0333E3B649E60D2D4 /* Pods-Pay_Check_LevCherniak.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 688N44G535;
+				INFOPLIST_FILE = Pay_Check_LevCherniak/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "LevCherniak.Pay-Check-LevCherniak";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D6F5C8FF22A656770067767D /* Build configuration list for PBXProject "Pay_Check_LevCherniak" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6F5C91422A656790067767D /* Debug */,
+				D6F5C91522A656790067767D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6F5C91622A656790067767D /* Build configuration list for PBXNativeTarget "Pay_Check_LevCherniak" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6F5C91722A656790067767D /* Debug */,
+				D6F5C91822A656790067767D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D6F5C8FC22A656770067767D /* Project object */;
+}
